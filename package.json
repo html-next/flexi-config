@@ -1,6 +1,6 @@
 {
   "name": "flexi-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Flexi config blueprint",
   "keywords": [
     "ember-addon"
