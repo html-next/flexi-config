@@ -1,6 +1,6 @@
 {
-  "name": "flexi-config",
-  "version": "0.1.2",
+  "name": "@html-nextflexi-config",
+  "version": "2.0.0-beta.1",
   "description": "Flexi config blueprint",
   "keywords": [
     "ember-addon"
