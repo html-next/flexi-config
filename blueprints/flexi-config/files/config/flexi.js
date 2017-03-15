@@ -2,6 +2,8 @@
 'use strict';
 
 module.exports = {
+  configVersion: '1.0.0',
+
   // breakpoints, order does not matter, they will be sorted by `begin`
   // `name` is used for layout names and booleans on the device/layout service
   // `prefix` is used for column classes, column attributes, and container breakpoint classes
