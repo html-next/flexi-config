@@ -9,12 +9,18 @@ module.exports = {
     'plugin:ember-suave/recommended'
   ],
   env: {
-    browser: true
+    browser: true,
+    es6: true
   },
   rules: {
     'arrow-parens': ['error', 'as-needed'],
     // Destructuring is not supported in node 4.8.0
     'ember-suave/prefer-destructuring': 'off',
-    'operator-linebreak': ['error', 'before', { 'overrides': { '=': 'ignore'} } ]
+    'operator-linebreak': ['error', 'before', { 'overrides': { '=': 'ignore'} } ],
+    'indent': ['error', 2, {
+      "CallExpression": { 'arguments': 'first' },
+      'FunctionDeclaration': { 'parameters': 'first' },
+      'FunctionExpression': { 'parameters': 'first' }
+    }]
   }
 };

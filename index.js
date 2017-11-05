@@ -2,9 +2,9 @@
 'use strict';
 
 module.exports = {
-  name: 'flexi-config',
+  name: '@html-next/flexi-config',
 
-  included: function(app, parentAddon) {
+  included(app, parentAddon) {
     this._super.included.apply(this, arguments);
 
     // Quick fix for add-on nesting
@@ -23,8 +23,8 @@ module.exports = {
     }
 
     if (!parentAddon && typeof app.import !== 'function') {
-      throw new Error('flexi-config is being used within another addon or engine and is' +
-        ' having trouble registering itself to the parent application.');
+      throw new Error('flexi-config is being used within another addon or engine and is'
+        + ' having trouble registering itself to the parent application.');
     }
 
     this.app = app;
