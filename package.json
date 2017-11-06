@@ -1,6 +1,6 @@
 {
   "name": "@html-next/flexi-config",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Flexi config blueprint",
   "keywords": [
     "ember-addon"
@@ -17,8 +17,7 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "ember-cli": "~2.16.2",
