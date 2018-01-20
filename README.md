@@ -1,5 +1,7 @@
 # flexi-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/html-next/flexi-config.svg)](https://greenkeeper.io/)
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
