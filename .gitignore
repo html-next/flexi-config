@@ -1,8 +1,5 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
-.idea
-.DS_Store
-
 # compiled output
 /dist
 /tmp
@@ -24,3 +21,6 @@ testem.log
 .node_modules.ember-try/
 bower.json.ember-try
 package.json.ember-try
+
+.idea/
+.DS_Store

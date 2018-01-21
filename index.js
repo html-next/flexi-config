@@ -1,4 +1,3 @@
-/* eslint-env node */
 'use strict';
 
 module.exports = {
@@ -23,7 +22,7 @@ module.exports = {
     }
 
     if (!parentAddon && typeof app.import !== 'function') {
-      throw new Error('flexi-config is being used within another addon or engine and is'
+      throw new Error('@html-next/flexi-config is being used within another addon or engine and is'
         + ' having trouble registering itself to the parent application.');
     }
 
