@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  name: '@html-next/flexi-config',
+  name: require('./package').name,
 
   included(app, parentAddon) {
     this._super.included.apply(this, arguments);
